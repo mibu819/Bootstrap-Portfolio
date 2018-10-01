@@ -1,0 +1,41 @@
+body {
+  background: url(../../assets/img/gravel.png);
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+#container {
+  padding: 60px;
+  margin-top: 65px;
+}
+
+#container .about-me {
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  margin-right: 10px;
+}
+
+footer.footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:30px;   /* Height of the footer */
+  background:darkgray;
+}
+
+p.copyright {
+  color: #fff;
+  line-height: 20px;
+  font-size: 0.7em;
+  text-align: center;
+}
